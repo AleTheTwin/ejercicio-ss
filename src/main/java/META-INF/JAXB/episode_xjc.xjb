@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.04.12 a las 05:46:06 PM CDT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="https://alethetwin.online/iPhoneInventory">
+    <schemaBindings map="false">
+      <package name="https.alethetwin_online.iphoneinventory"/>
+    </schemaBindings>
+    <bindings scd="tns:AgregarIphoneRequest">
+      <class ref="https.alethetwin_online.iphoneinventory.AgregarIphoneRequest"/>
+    </bindings>
+    <bindings scd="tns:ObtenerIphonesResponse">
+      <class ref="https.alethetwin_online.iphoneinventory.ObtenerIphonesResponse"/>
+    </bindings>
+    <bindings scd="tns:AgregarIphoneResponse">
+      <class ref="https.alethetwin_online.iphoneinventory.AgregarIphoneResponse"/>
+    </bindings>
+    <bindings scd="tns:EliminarIphoneRequest">
+      <class ref="https.alethetwin_online.iphoneinventory.EliminarIphoneRequest"/>
+    </bindings>
+    <bindings scd="tns:EliminarIphoneResponse">
+      <class ref="https.alethetwin_online.iphoneinventory.EliminarIphoneResponse"/>
+    </bindings>
+    <bindings scd="tns:ObtenerCantidadPorModeloRequest">
+      <class ref="https.alethetwin_online.iphoneinventory.ObtenerCantidadPorModeloRequest"/>
+    </bindings>
+    <bindings scd="tns:ObtenerCantidadPorModeloResponse">
+      <class ref="https.alethetwin_online.iphoneinventory.ObtenerCantidadPorModeloResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
